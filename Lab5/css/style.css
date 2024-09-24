@@ -1,0 +1,101 @@
+body {
+    background:
+        url("C:/Users/MAX_ПК/Desktop/sites/Lab5/images/bgcontainer.jpg") repeat-y center,
+        url("C:/Users/MAX_ПК/Desktop/sites/Lab5/images/bg.jpg");
+    color: #444;
+    margin: 0 auto;
+}
+
+#container {
+    width: 630px;
+    margin: 0 auto;
+}
+
+#header {
+    background: url("C:/Users/MAX_ПК/Desktop/sites/Lab5/images/bgcontent.gif") no-repeat;
+    color: #FFC;
+}
+
+.top-nav {
+    padding: 10px 0 60px;
+    text-align: center;
+}
+
+.top-nav a {
+    font-size: 23px;
+    color: #6C7151;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.top-nav a:hover {
+    color: #2C3111;
+}
+
+.header-line {
+    background-image: url("C:/Users/MAX_ПК/Desktop/sites/Lab5/images/header_line.gif");
+    height: 12px;
+}
+
+#banner {
+    background-image: url("C:/Users/MAX_ПК/Desktop/sites/Lab5/images/header.jpg");
+    height: 230px;
+}
+
+#banner h1 {
+    font-size: 40px;
+    margin: 0;
+    padding: 70px 80px 20px;
+}
+
+#banner p {
+    margin: 0;
+    padding: 20px 80px;
+}
+
+#content {
+    background: url("C:/Users/MAX_ПК/Desktop/sites/Lab5/images/bgcontent.gif") no-repeat;
+    padding: 40px 40px 10px;
+}
+
+.content-block .title {
+    font-size: 33px;
+    color: #445044;
+}
+
+.content-block .title::first-letter {
+    font-size: 60px;
+    float: left;
+    padding-top: 5px;
+}
+
+.content-block .date {
+    color: #666;
+    font-size: 15px;
+}
+
+.content-body p {
+    margin: 10px 0;
+}
+
+.content-body .clear-float {
+    margin-top: 35px;
+}
+
+.content-body img {
+    float: left;
+    border: 1px dashed #6C7151;
+    margin: 0 10px 10px;
+}
+
+.content-line {
+    background: url("C:/Users/MAX_ПК/Desktop/sites/Lab5/images/content_line.gif") no-repeat center;
+    height: 20px;
+    margin-top: 20px;
+}
+
+#footer {
+    text-align: center;
+    background: url("C:/Users/MAX_ПК/Desktop/sites/Lab5/images/bgfooter.gif") no-repeat;
+    height: 40px;
+}
