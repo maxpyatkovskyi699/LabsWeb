@@ -1,0 +1,78 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #1e1e1e; /* Darker background for better contrast */
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+        "header header header"
+        "sidebar content-1 content-1"
+        "sidebar content-1 content-1"
+        "sidebar content-2 content-3"
+        "sidebar advertisement advertisement"
+        "sidebar content-4 content-5"
+        "footer footer footer";
+    gap: 20px; 
+    height: 95vh;
+    padding: 20px; 
+}
+
+.header, .sidebar, .content, .footer, .advertisement {
+    color: #ffffff; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    border-radius: 15px; 
+    border: 5px solid #ffffff; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); 
+}
+
+.header {
+    grid-area: header;
+    background: linear-gradient(135deg, #ff0000, #ff4d4d); 
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background: linear-gradient(135deg, #003300, #004d00); 
+}
+
+.content, .advertisement {
+    background: linear-gradient(135deg, #2c57ff, #74a9ff); 
+    border: 2px solid #ffffff; 
+}
+
+.content-1 {
+    grid-area: content-1;
+}
+
+.content-2 {
+    grid-area: content-2;
+}
+
+.content-3 {
+    grid-area: content-3;
+}
+
+.advertisement {
+    grid-area: advertisement; 
+    background: linear-gradient(135deg, #ff4500, #ff7f50); 
+}
+
+.content-4 {
+    grid-area: content-4; 
+}
+
+.content-5 {
+    grid-area: content-5; 
+}
+
+.footer {
+    grid-area: footer;
+    background: linear-gradient(135deg, #0000ff, #3399ff); 
+}
